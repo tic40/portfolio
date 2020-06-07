@@ -1,40 +1,89 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        portfolio
-      </h1>
-      <h2 class="subtitle">
-        My stupendous Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+    <section>
+      <h2>Table of contents</h2>
+      <ul>
+        <li>
+          <a href="#info">基本情報</a>
+        </li>
+        <li>
+          <a href="#carriculum-vitae">職務経歴</a>
+        </li>
+        <li>
+          <a href="#links">関連リンク</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="info">基本情報</h2>
+      <div>
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
       </div>
-    </div>
+    </section>
+
+    <section>
+      <h2 id="carriculum-vitae">職務経歴</h2>
+      <div>
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+      </div>
+    </section>
+
+    <section>
+      <h2 id="links">関連リンク</h2>
+      <div>
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+        hogehogehoge
+      </div>
+    </section>
+
+    <section>
+      <h1>timeline</h1>
+      <div>
+        <a class="twitter-timeline" href="https://twitter.com/tic40?ref_src=twsrc%5Etfw">Tweets by tic40</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </section>
+
+</div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue'
 
 export default Vue.extend({
   components: {
-    Logo
   }
 })
 </script>
@@ -45,34 +94,4 @@ export default Vue.extend({
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
